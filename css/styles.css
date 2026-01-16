@@ -16,7 +16,7 @@ a{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.166;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;   
@@ -76,7 +76,13 @@ color: #404bbf;
     letter-spacing: 0.04em;
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4D5AE5;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+    color: #fff;
 }
 
 .features-section{
@@ -174,4 +180,4 @@ background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: #F4F4FD;}
